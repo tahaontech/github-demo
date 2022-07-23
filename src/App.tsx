@@ -10,9 +10,10 @@ function App() {
   return (
     <Layout>
         <Routes>
-          <Route path='/github-demo/' element={<Home />}/>
-          <Route path='/github-demo/MostPopulars' element={<MostPop />} />
-          <Route path="/github-demo/user/:username" element={<User />} />
+          <Route path='*' element={<Home />} />
+          <Route path='/' element={<Home />}/>
+          <Route path='/MostPopulars' element={<MostPop />} />
+          <Route path="/user/:username" element={<User />} />
         </Routes>
     </Layout>
   );
