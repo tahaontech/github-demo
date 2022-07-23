@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Grid, Button, Typography } from "@mui/material";
 import DialogSearch from "../features/SearchDialog";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -41,7 +42,7 @@ const Home = () => {
         </Grid>
         <Grid item sx={{ marginTop: "15px" }}>
           <Button sx={{ minWidth: "200px"}} variant="contained" color="secondary">
-            most popular users
+            <Link to="/MostPopulars"/>
           </Button>
         </Grid>
       </Grid>
