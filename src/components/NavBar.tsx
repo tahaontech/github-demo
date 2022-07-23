@@ -20,12 +20,12 @@ const NavBar = () => {
       </Grid>
       <Grid item xs={2}>
         <Button >
-          <Link style={{ color: "white" }} to="/">Home</Link>{" "}
+          <Link style={{ color: "white" }} to="/github-demo/">Home</Link>{" "}
         </Button>
       </Grid>
       <Grid item xs={2}>
         <Button sx={{ color: "white" }}>
-          <Link style={{ color: "white" }} to="/MostPopulars">Most Popular</Link>{" "}
+          <Link style={{ color: "white" }} to="/github-demo/MostPopulars">Most Popular</Link>{" "}
         </Button>
       </Grid>
     </Grid>
